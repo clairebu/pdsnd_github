@@ -183,10 +183,13 @@ def user_stats(df):
     print('-'*40)
 
 def yes_or_no(question):
-    """Requires yes or no response from user.
+    """
+    Verifies the users input is either yes or no. 
+    If the input is invalid it asks the user to to make sure they have entered either yes or no.
 
     Returns:
-    (str) answer - user input, either yes or no. """
+    (str) answer - user input, either yes or no. 
+    """
 
     while True:
         answer = input(question)
