@@ -5,7 +5,7 @@ pdsnd_github is a Python script that explores US bikeshare data through an inter
 
 
 ## Date created
-This project was created on **May 13, 2023**. <br>
+This project was created on **May 12, 2023**. <br>
 The README file was created on **June 15, 2023**.
 
 ## Files used
