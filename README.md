@@ -1,17 +1,33 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# pdsnd_github
 
-### Date created
-Include the date you created this project and README file.
+## Description
+pdsnd_github is a Python script that explores US bikeshare data through an interactive environment. The user can select the bikeshare data they would like to filter and analyze from one of three cities. The cities include New York City, Chicago, or Washington, DC. 
 
-### Project Title
-Replace the Project Title
 
-### Description
-Describe what your project is about and what it does
+## Date created
+This project was created on **May 13, 2023**. <br>
+The README file was created on **June 15, 2023**.
 
-### Files used
-Include the files used
+## Files used
+- new_york_city.csv
+- chicago.csv
+- washington.csv
+## Statistics Computed
+### **1. Popular times of travel**
+- most common month
+- most common day of week
+- most common hour of day
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+### **2.  Popular stations and trip**
+- most common start station
+- most common end station
+- most common trip from start to end
+### **3.  Trip duration**
+- total travel time
+- average travel time
+### **4.  User info**
+- counts of each type of user
+- counts of each gender (only available for NYC and Chicago)
+- earliest, most recent, most common year of birth (only available for NYC and Chicago)
+## Known Bugs
+_Currently there are no known bugs within the code._
