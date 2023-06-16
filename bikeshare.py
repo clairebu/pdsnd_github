@@ -111,17 +111,17 @@ def station_stats(df):
     start_time = time.time()
 
     # display most commonly used start station
-    popular_start = df['Start Station'].mode()[0]
-    print("Most Common Start Station:", popular_start)
+    pop_start = df['Start Station'].mode()[0]
+    print("Most Common Start Station:", pop_start)
 
     # display most commonly used end station
-    popular_end = df['End Station'].mode()[0]
-    print("Most Common End Station:", popular_end)
+    pop_end = df['End Station'].mode()[0]
+    print("Most Common End Station:", pop_end)
 
     # display most frequent combination of start station and end station trip
     df['Start_End'] = df['Start Station'] + " and " + df['End Station']
-    popular_combo = df['Start_End'].mode()[0]
-    print("Most Frequent Combination of Start Station and End Station Trip:", popular_combo)
+    pop_start_end = df['Start_End'].mode()[0]
+    print("Most Frequent Combination of Start Station and End Station Trip:", pop_start_end)
     df.drop(['Start_End'], axis = 1, inplace = True)   #dropping added start & end column that was used for finding most frequent combo 
     
 
